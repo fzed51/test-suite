@@ -1,0 +1,26 @@
+{
+    "name": "fzed51/test-suite",
+    "description": "Description of project TestSuite.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "fabien.sanchez",
+            "email": "fzed51@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "ext-reflection": "*",
+        "ext-spl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fzed51\\TestSuite\\": "./src"
+        }
+    },
+    "bin": [
+        "test.php"
+    ]
+}
